@@ -10,7 +10,7 @@ int main()
         cin >> dist1; cin.ignore();
         string enemy2; // name of enemy 2
         cin >> enemy2; cin.ignore();
-        int dist2; // distance to enemy 2
+        int dist2; // distance to enemy 2 
         cin >> dist2; cin.ignore();
         
 		if (dist1 < dist2) cout << enemy1 << endl;
