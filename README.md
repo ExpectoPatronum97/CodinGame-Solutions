@@ -4,9 +4,8 @@
 ### Easy: 10/10
 	- All done! ✔
 	
-### Medium: 13/17
+### Medium: 14/17
 	- Bender EP1 ✖
-	- Mars Lander EP2 ✖
 	- Mayan Calculation ✖
 	- Teads Sponsored Contest ✖
 
