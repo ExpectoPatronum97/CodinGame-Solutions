@@ -27,7 +27,7 @@ private:
 
 
     string moves_taken;
-    vector<pair<int, int>> directions; // first - xcoord, second - ycoord
+    vector<pair<int, int>> deltas; // first - xcoord, second - ycoord
     vector<string> board;
 
     int char_to_int(char);
@@ -59,7 +59,7 @@ bool Bender::legal_move(int y, int x)
 }
 bool Bender::obstacle_incoming()
 {
-    char* c = &board[benderY + directions[char_to_int(curr_dir)].second][benderX + directions[char_to_int(curr_dir)].first];
+    char* c = &board[benderY + deltas[char_to_int(curr_dir)].second][benderX + deltas[char_to_int(curr_dir)].first];
 
     if (breaker_mode)
     {
@@ -90,7 +90,7 @@ bool Bender::is_looping()
 
 void Bender::inverter()
 {
-    reverse(directions.begin(), directions.end());
+    reverse(deltas.begin(), deltas.end());
     reverse(dirs.begin(), dirs.end());
 }
 void Bender::teleport()
@@ -110,8 +110,8 @@ char Bender::next_dir()
 {
     for ( int i = 0; i < 4; i++)
     {
-        int tempX = benderX + directions[i].first;
-        int tempY = benderY + directions[i].second;
+        int tempX = benderX + deltas[i].first;
+        int tempY = benderY + deltas[i].second;
         if (!legal_move(tempY, tempX)) continue;
 
         if (breaker_mode)
@@ -130,8 +130,8 @@ char Bender::next_dir()
 void Bender::move()
 {
     int x = char_to_int(curr_dir);
-    benderX += directions[x].first;
-    benderY += directions[x].second;
+    benderX += deltas[x].first;
+    benderY += deltas[x].second;
     moves_taken += curr_dir;
 }
 
@@ -146,10 +146,10 @@ Bender::Bender(int height, int width, vector<string> board)
     loop = false;
     moves_taken = "";
 
-    directions.push_back({0, +1});
-    directions.push_back({+1, 0});
-    directions.push_back({0, -1});
-    directions.push_back({-1, 0});
+    deltas.push_back({0, +1});
+    deltas.push_back({+1, 0});
+    deltas.push_back({0, -1});
+    deltas.push_back({-1, 0});
 
     bool found_first = false;
     for (int i = 0; i < board.size(); i++)
