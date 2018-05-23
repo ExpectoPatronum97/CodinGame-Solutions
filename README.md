@@ -4,17 +4,16 @@
 ### Easy: 10/10
 	- All done! ✔
 	
-### Medium: 14/17
+### Medium: 15/17
 	- Bender EP1 ✖
-	- Mayan Calculation ✖
 	- Teads Sponsored Contest ✖
 
-### Hard: 0/17
+### Hard: 1/17
 	- Bender EP2 ✖
 	- Bender EP3 ✖
 	- CGX Formatter ✖
 	- Don't Panic EP2 ✖
-	- Genome Sequencing ✖
+	- Genome Sequencing ✔
 	- Power of Thor EP2 ✖
 	- Roller Coster ✖
 	- Skynet Revolution EP2 ✖
