@@ -4,8 +4,8 @@
 ### Easy: 10/10
 	- All done! ✔
 	
-### Medium: 16/17
-	- Teads Sponsored Contest ✖
+### Medium: 17/17
+	- All done! ✔
 
 ### Hard: 1/17
 	- Bender EP2 ✖
