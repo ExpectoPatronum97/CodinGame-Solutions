@@ -7,7 +7,7 @@
 ### Medium: 17/17
 	- All done! ✔
 
-### Hard: 1/17
+### Hard: 2/17
 	- Bender EP2 ✖
 	- Bender EP3 ✖
 	- CGX Formatter ✖
@@ -16,7 +16,7 @@
 	- Power of Thor EP2 ✖
 	- Roller Coster ✖
 	- Skynet Revolution EP2 ✖
-	- Super Computer ✖
+	- Super Computer ✔
 	- Surface ✖
 	- TAN Network ✖
 	- The Bridge ✖
