@@ -7,14 +7,14 @@
 ### Medium: 17/17
 	- All done! ✔
 
-### Hard: 2/17
+### Hard: 3/17
 	- Bender EP2 ✖
 	- Bender EP3 ✖
 	- CGX Formatter ✖
 	- Don't Panic EP2 ✖
 	- Genome Sequencing ✔
 	- Power of Thor EP2 ✖
-	- Roller Coster ✖
+	- Roller Coaster ✔
 	- Skynet Revolution EP2 ✖
 	- Super Computer ✔
 	- Surface ✖
