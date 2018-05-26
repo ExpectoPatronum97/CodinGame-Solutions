@@ -7,8 +7,8 @@
 ### Medium: 17/17
 	- All done! ✔
 
-### Hard: 4/17
-	- Bender EP2 ✖
+### Hard: 5/17
+	- Bender EP2 ✔
 	- Bender EP3 ✖
 	- CGX Formatter ✖
 	- Don't Panic EP2 ✖
