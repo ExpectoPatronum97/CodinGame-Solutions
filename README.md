@@ -7,7 +7,7 @@
 ### Medium: 17/17
 	- All done! ✔
 
-### Hard: 3/17
+### Hard: 4/17
 	- Bender EP2 ✖
 	- Bender EP3 ✖
 	- CGX Formatter ✖
@@ -17,7 +17,7 @@
 	- Roller Coaster ✔
 	- Skynet Revolution EP2 ✖
 	- Super Computer ✔
-	- Surface ✖
+	- Surface ✔
 	- TAN Network ✖
 	- The Bridge ✖
 	- The Labyrinth ✖
